@@ -1,0 +1,19 @@
+.Search {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: 'Playfair Display', serif;
+}
+.Search .myLocation {
+  width: 50px
+}
+.Search .search-bar {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 15px 10px;
+  line-height: 26px;
+  text-indent: 15px;
+  width: 425px;
+}
+.Search .search-button {
+  width: 105px
+}

@@ -1,12 +1,17 @@
 import React from "react";
+import './Search.css';
 
 export default function Search() {
-  return(
+  return (
     <div className="Search">
       <form>
-        <input type="submit" value="v" />
-        <input type="search" placeholder="Enter a location..." />
-        <input type="submit" value="Search" />
+        <input className="myLocation" type="submit" value="📍" />
+        <input
+          className="search-bar"
+          type="search"
+          placeholder="Enter a city..."
+        />
+        <input className="search-button" type="submit" value="Search" />
       </form>
     </div>
   );
