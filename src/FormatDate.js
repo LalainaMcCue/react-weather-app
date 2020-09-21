@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function FormatDate (props) {
   console.log(props.date);
   let weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
