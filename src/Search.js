@@ -25,7 +25,7 @@ export default function Search() {
       ready: true,
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
-      iconUrl: "",
+      icon: response.data.weather[0].icon,
       description: response.data.weather[0].description,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,

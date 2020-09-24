@@ -18,6 +18,10 @@
   padding: 0px;
   margin: 0px;
 }
+.Weather canvas{
+  display: block;
+  margin: 0px auto 10px;
+}
 .icon-title {
   text-align: center;
 }
