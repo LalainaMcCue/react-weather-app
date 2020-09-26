@@ -1,0 +1,8 @@
+.WeatherTemp a {
+  color: black;
+}
+
+.WeatherTemp a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}

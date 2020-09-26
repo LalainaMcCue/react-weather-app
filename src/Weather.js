@@ -25,10 +25,9 @@ export default function Weather(props) {
           <div className="col-6">
             <WeatherTemp fahrTemp={props.weatherData.temperature} />
             <ul>
-              <li>Precipitation: 5%</li>
               <li>Humidity: {props.weatherData.humidity}%</li>
               <li>Wind: {Math.round(props.weatherData.wind)} mph</li>
-            </ul>
+            </ul> 
           </div>
         </div>
         <WeatherForcast city={props.weatherData.city} />

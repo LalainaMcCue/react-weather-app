@@ -20,7 +20,7 @@
 }
 .Weather canvas{
   display: block;
-  margin: 0px auto 10px;
+  margin: 0px auto 5px;
 }
 .icon-title {
   text-align: center;
@@ -28,6 +28,7 @@
 .temp {
   font-size: 35px;
   line-height: 40px;
+  margin: 10px 0px 0px;
 }
 .unit {
   position: relative;
@@ -35,7 +36,7 @@
 }
 .Weather ul {
   padding: 0px;
-  margin: 10px 0px 15px;
+  margin: 15px 0px;
 }
 .Weather li {
   list-style: none;
