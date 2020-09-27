@@ -7,6 +7,13 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Search />
+        <footer className="tag">
+          This code is{" "}
+          <a href="https://github.com/LalainaMcCue/react-weather-app" target="_blank">
+            open-sourced
+          </a>{" "}
+          on Github.
+        </footer>
       </div>
     </div>
   );

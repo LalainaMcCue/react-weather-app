@@ -3,13 +3,16 @@ import FormatDate from "./FormatDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemp from "./WeatherTemp";
 import WeatherForcast from "./WeatherForecast";
+import Greeting from "./Greeting";
 import './Weather.css';
 
 export default function Weather(props) {
     return (
       <div className="Weather">
         <div className="header">
-          <p>Good Morning</p>
+          <p>
+            <Greeting date={props.weatherData.date} />
+            </p>
           <h1>{props.weatherData.city}</h1>
           <p>
             <FormatDate date={props.weatherData.date} />
