@@ -9,7 +9,11 @@ export default function App() {
         <Search />
         <footer className="tag">
           This code is{" "}
-          <a href="https://github.com/LalainaMcCue/react-weather-app" target="_blank">
+          <a
+            href="https://github.com/LalainaMcCue/react-weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             open-sourced
           </a>{" "}
           on Github.
