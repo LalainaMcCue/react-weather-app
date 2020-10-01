@@ -36,7 +36,6 @@ export default function Search() {
   return (
     <div className="Search">
       <form onSubmit={handleSubmit}>
-        <input className="myLocation" type="submit" value="📍" />
         <input
           className="search-bar"
           type="search"
